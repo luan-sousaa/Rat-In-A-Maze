@@ -21,7 +21,7 @@ void imprimirSolucao(int labirinto[TAMANHO][TAMANHO], int solucao[TAMANHO][TAMAN
 {
     for (int i = 0; i < TAMANHO; i++) {
         for (int j = 0; j < TAMANHO; j++) {
-            if (solucao[i][j])
+            if (solucao[i][j] == 1)
                 printf("-> ");
             else if (labirinto[i][j] == 0)
                 printf("|  ");
