@@ -292,3 +292,12 @@ gcc -Wall -o rat_maze rat_maze.c
 - `rat_maze.c` — arquivo fonte
 
 Para testar o caso sem solução, basta alterar `labirinto[1][0]` de `1` para `0`, bloqueando o único caminho possível. O programa então exibirá `"Nenhuma solucao encontrada"`.
+
+---
+
+## 11. Referência
+
+O código base deste projeto foi adaptado de:
+
+**Tutorials Point — Rat in a Maze Problem**
+https://www.tutorialspoint.com/data_structures_algorithms/rat_in_maze_problem.htm
